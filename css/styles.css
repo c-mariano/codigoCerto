@@ -185,7 +185,30 @@ footer img {
   display: none;
 }
 
-/* Mobile */
+/* Mobile - Index */
+@media (max-width: 1080px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  #logo img {
+    width: 150px;
+  }
+  #title {
+    font-size: 1.6rem;
+    margin: 0 auto;
+    font-weight: 600;
+  }
+  #subtitle {
+    font-size: 1.2rem;
+  }
+  #image-end img {
+    width: 600px;
+    height: 400px;
+    border-radius: 0;
+  }
+}
+/* Mobile - Conteúdo */
 @media (max-width: 1080px) {
   html,
   body {
